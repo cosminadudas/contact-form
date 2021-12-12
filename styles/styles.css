@@ -1,0 +1,99 @@
+body {
+    background-image: url(/images/backgr1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size:cover;
+    height: 150vh;
+    object-fit: contain;
+    margin:0;
+    padding:0;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    color:white;
+}
+
+form {
+    width: 40rem;
+    margin: 6rem auto;
+    background-color: rgba(12, 66, 128, 0.5);
+    padding: 2rem;
+    border-radius: 6px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color:white;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    font: inherit;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 3px;
+    padding: 0.25rem;
+    color: rgb(61, 58, 58);
+}
+
+input:focus,
+textarea:focus {
+    background-color: rgb(230, 247, 244);
+    color:rgba(1, 23, 48);
+    border-color: rgba(12, 66, 128);
+}
+
+button {
+    color: rgb(12, 66, 128);
+    font-weight: bold;
+    padding: 0.5rem 1.2rem;
+    border-radius: 5px;
+    margin: 0.3rem;
+    font-size: 1.1rem;
+    border-color: rgb(171, 175, 175);
+    text-transform: uppercase;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+
+.submit {
+    background-color: rgb(241, 208, 241);
+}
+
+.submit:hover {
+    background-color: rgb(204, 160, 204);
+}
+
+.clear:hover {
+   background-color: rgb(214, 210, 214);
+}
+
+.form-control-inline {
+    display: flex;
+}
+
+.form-control-inline input {
+    width: auto;
+    margin-right: 0.5rem;
+}
