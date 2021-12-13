@@ -15,72 +15,72 @@
     <title>Contact Us Form</title>
   </head>
   <body>
-    <h1>Contact Us</h1>
-    <form action="/" method="GET">
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+    <main>
+      <form action="/" method="GET">
         <h2>How can we help you?</h2>
-      <section class="personal-info">
-         
-        <ul>
-          <li>
-            <label for="user-name">Your Name</label>
-            <input type="text" id="user-name" name="name" required/>
-          </li>
-          <li>
-            <label for="user-email">Your Email Address</label>
-            <input type="email" id="user-email" name="email" required/>
-          </li>
-          <li>
-            <label for="user-phone">Your Phone Number</label>
-            <input type="tel" id="user-phone" name="phone" required/>
-          </li>
-        </ul>
-      </section>
-      <section class="message">
-        <label for="user-message">Your Message</label>
-        <textarea id="user-message" name="message" rows="5"></textarea>
-      </section>
+        <section class="personal-info">
+          <ul>
+            <li>
+              <label for="user-name">Your Name</label>
+              <input type="text" id="user-name" name="name" required />
+            </li>
+            <li>
+              <label for="user-email">Your Email Address</label>
+              <input type="email" id="user-email" name="email" required />
+            </li>
+            <li>
+              <label for="user-phone">Your Phone Number</label>
+              <input type="tel" id="user-phone" name="phone" required />
+            </li>
+          </ul>
+        </section>
+        <section class="message">
+          <label for="user-message">Your Message</label>
+          <textarea id="user-message" name="message" rows="5"></textarea>
+        </section>
 
-      <section class="find-info">
-        <label for="find-info">How did you find us?</label>
-        <select id="find-info" name="find-info">
-          <option>Web Search</option>
-          <option>Social Media</option>
-          <option>Friends</option>
-        </select>
-      </section>
+        <section class="find-info">
+          <label for="find-info">How did you find us?</label>
+          <select id="find-info" name="find-info">
+            <option>Web Search</option>
+            <option>Social Media</option>
+            <option>Friends</option>
+          </select>
+        </section>
 
-      <section class="contact-info">
+        <section class="contact-info">
           <h2>How should we reply?</h2>
-        <ul>
-          <li class="form-control-inline">
-            
-            <input type="radio" id="call-contact" name="call-contact"/>
-            <label for="call-contact">Call me</label>
-          </li>
-          <li class="form-control-inline">
-            
-            <input type="radio" id="email-contact" name="email-contact"/>
-            <label for="email-contact">Send me an email</label>
-          </li>
-          <li class="form-control-inline">
-            <input type="radio" id="no-contact" name="no-contact"/>
-            <label for="no-contact">Don't reply</label>
-          </li>
-        </ul>
-      </section>
-      <section class="terms">
-       <ul>
-           <li class="form-control-inline">
-            <input type="checkbox" id="agree-terms" name="agree-terms">
-            <label for="agree-terms">Accept Tems</label>
-           </li>
-       </ul>
-       
-      </section>
-      <section class="buttons">
+          <ul>
+            <li class="form-control-inline">
+              <input type="radio" id="call-contact" name="call-contact" />
+              <label for="call-contact">Call me</label>
+            </li>
+            <li class="form-control-inline">
+              <input type="radio" id="email-contact" name="email-contact" />
+              <label for="email-contact">Send me an email</label>
+            </li>
+            <li class="form-control-inline">
+              <input type="radio" id="no-contact" name="no-contact" />
+              <label for="no-contact">Don't reply</label>
+            </li>
+          </ul>
+        </section>
+        <section class="terms">
+          <ul>
+            <li class="form-control-inline">
+              <input type="checkbox" id="agree-terms" name="agree-terms" />
+              <label for="agree-terms">Accept Tems</label>
+            </li>
+          </ul>
+        </section>
+        <section class="buttons">
           <button type="reset" class="clear">Clear</button>
           <button type="submit" class="submit">Submit</button>
-      </section>
-    </form>
+        </section>
+      </form>
+    </main>
   </body>
 </html>
